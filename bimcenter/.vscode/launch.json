@@ -1,4 +1,4 @@
-{
+﻿{
    // Use IntelliSense to find out which attributes exist for C# debugging
    // Use hover for the description of the existing attributes
    // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
@@ -22,7 +22,12 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "ASPNETCORE_URLS": "http�G// localhost�G3000 "
+                "ASPNETCORE_URLS": "http�G// localhost�G3000 " "FORGE_CLIENT_ID":"7bgArSzAKZn0Mui3sumK6yINlKsUGOmB",
+                "FORGE_CLIENT_SECRET":"SOAesJr4JOpHsbMy",
+                "FORGE_CALLBACK_URL":"http：// localhost：3000 / api / forge / callback / oauth",
+                "FORGE_CLIENT_ID":"7bgArSzAKZn0Mui3sumK6yINlKsUGOmB",
+                "FORGE_CLIENT_SECRET":"SOAesJr4JOpHsbMy",
+                "FORGE_CALLBACK_URL":"http：// localhost：3000 / api / forge / callback / oauth"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
