@@ -21,7 +21,11 @@
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
             },
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "Client_ID_Forge":"7bgArSzAKZn0Mui3sumK6yINlKsUGOmB",
+                "Client_Secret_Forge":"SOAesJr4JOpHsbMy",
+                "FORGE_CALLBACK_URL":"https://git.heroku.com/bimcenter.git"
+
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
